@@ -114,7 +114,7 @@ module PairUp
   private
 
   def self.mac?
-    (/darwin14/ =~ RUBY_PLATFORM)
+    (/darwin/ =~ RUBY_PLATFORM)
   end
 
   def self.config
