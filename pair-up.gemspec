@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = '1.3.5'
 
   s.name = %q{pair-up}
-  s.version = '1.0.3'
+  s.version = '1.0.4'
   s.date = Time.now.strftime('%F')
   s.license = 'MIT'
 
@@ -33,11 +33,11 @@ Gem::Specification.new do |s|
     README.md
     Rakefile
     bin/pair
-    pair-up.gemspec
     lib/pair-up.rb
-    lib/pair-up/participant.rb
     lib/pair-up/pair-up.sh
+    lib/pair-up/participant.rb
     lib/pair-up/ui.rb
+    pair-up.gemspec
     spec/pair-up/participant_spec.rb
     spec/pair-up/ui_spec.rb
     spec/pair-up_spec.rb

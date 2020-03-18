@@ -6,7 +6,7 @@ require File.expand_path(File.join(File.dirname(__FILE__), %w[.. lib pair-up par
 
 module PairUp
 
-  VERSION = '1.0.0'
+  VERSION = '1.0.4'
 
   def self.print_info
     if PairUp.pairing? && STDOUT.tty?
